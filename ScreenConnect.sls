@@ -1,9 +1,9 @@
 ScreenConnect:
   latest:
-    installer: salt://win/repo/7zip/7z920-x64.msi
-    full_name: 7-Zip 9.20 (x64 edition)
+    installer: https://github.com/DouglasEvink/salt-winrepo-scs/raw/3d12d4631517e7286442653eac6990c68901a152/ScreenConnect/ConnectWiseControl.ClientSetup.msi
+    full_name: ScreenConnect Installer
     reboot: False
     install_flags: ' /q '
     msiexec: True
-    uninstaller: salt://win/repo/7zip/7z920-x64.msi
+    uninstaller: https://github.com/DouglasEvink/salt-winrepo-scs/raw/3d12d4631517e7286442653eac6990c68901a152/ScreenConnect/ConnectWiseControl.ClientSetup.msi
     uninstall_flags: ' /qn'
